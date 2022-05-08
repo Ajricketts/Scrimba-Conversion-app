@@ -1,0 +1,59 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+header {
+    height: 50%;
+    background: linear-gradient(246.26deg, #585DFE 0%, #FB3796 100%);
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 38px;
+    /* identical to box height, or 173% */
+    text-align: center;
+    letter-spacing: -0.05em;
+    color: #FFFFFF;
+    padding-top: 53px;
+    margin: 0;
+}
+
+.input {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 97.5723px;
+    line-height: 25%;
+    /* or 25% */
+
+    text-align: center;
+}
+
+
+main {
+    background: #1F2937;
+    height: 50%;
+    margin: 0;
+    padding: 0;
+}
+
+.unit {
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF;
+}
+
+.conv {
+    color: #FFFFFF;
+}
