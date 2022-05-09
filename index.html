@@ -2,20 +2,25 @@
 <html>
     <head>
         <link href="index.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">  
     </head>
     <body>
         <header>
             <h1 class="title">Metric / Imperial unit conversion</h1>
-            <p class="input">0</p>
+            <div class="input">
+                <button class = "btn" onclick="changeInput()">0</button>
+            </div>
         </header>
         
         <main>
             <h2 class="unit">Length (Meter/Feet)</h2>
             <p class="conv">0 meters = 0.000 feet | 0 feet = 0.000 meters</p>
             <h2 class="unit">Volume (Liters/Gallons)</h2>
-            <p class="conv">0 meters = 0.000 feet | 0 feet = 0.000 meters</p>
+            <p class="conv">0 liters = 0.000 gallons | 0 gallons = 0.000 liters</p>
             <h2 class="unit">Mass (Kilograms/Pounds)</h2>
-            <p class="conv">0 meters = 0.000 feet | 0 feet = 0.000 meters</p>
+            <p class="conv">0 kilos = 0.000 pounds | 0 pounds = 0.000 kilos</p>
         </main>
         <script src="index.js"></script>
     </body>

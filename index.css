@@ -12,7 +12,7 @@ header {
 }
 
 .title {
-    font-family: 'Inter';
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 48px;
@@ -21,27 +21,32 @@ header {
     text-align: center;
     letter-spacing: -0.05em;
     color: #FFFFFF;
-    padding-top: 53px;
+    padding-top: 100px;
     margin: 0;
 }
 
 .input {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 800;
-    color: #FFFFFF;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 97.5723px;
+    /* margin: 50, auto;
     line-height: 25%;
-    /* or 25% */
-
+    top: 297px; */
     text-align: center;
+
+}
+
+.btn {
+    background-color: transparent;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 120px;
+    font-family: 'Inter';
+    font-style: normal;
+    padding-top: 30px;
 }
 
 
 main {
+    font-family: "Inter";
     background: #1F2937;
     height: 50%;
     margin: 0;
@@ -50,10 +55,13 @@ main {
 
 .unit {
     margin: 0;
-    padding: 0;
+    padding-top: 57px;
     color: #FFFFFF;
+    text-align: center;
 }
 
 .conv {
-    color: #FFFFFF;
+    color: #D2D2D2;
+    text-align: center;
+    margin-bottom: px;
 }
